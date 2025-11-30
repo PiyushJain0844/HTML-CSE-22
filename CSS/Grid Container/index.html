@@ -1,26 +1,29 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Grid Container Example</title>
-</head>
-<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Grid Container Example </title>
 
     <style>
         .container {
             display: grid;
-            grid-template-columns: repeat(3, 100px);
-            grid-template-rows: repeat(2, 100px);
+            grid-template-columns: repeat(3,100px);
+            grid-template-rows: repeat(2,100px);
             grid-gap: 10px;
         }
 
-        .item {
-            background-color: #3498db;
-            color: #fff;
+        .items {
+            background-color:rgb(99, 110, 231);
+            color:black;
             padding: 10px;
             text-align: center;
         }
     </style>
 
+</head>
+<body>
+    
     <div class="container">
         <div class="items">Item 1</div>
         <div class="items">Item 2</div>
@@ -29,6 +32,6 @@
         <div class="items">Item 5</div>
         <div class="items">Item 6</div>
     </div>
-
+    
 </body>
-</html>
+</html> 
