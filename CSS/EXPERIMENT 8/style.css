@@ -3,7 +3,7 @@ body {
     margin: 20px;
 }
 
-    .container {
+.container {
     border: 2px solid black;
     display: flex;
     justify-content: center;
