@@ -1,0 +1,21 @@
+.container {
+    display: flex;
+    justify-content: center;  /* Horizontal centering */
+    align-items: center;       /* Vertical centering */
+    height: 250px;
+    background-color: lightgray;
+    border: 2px solid #333;
+    gap: 15px;
+}
+
+.box {
+    width: 60px;
+    height: 60px;
+    background: steelblue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    border-radius: 6px;
+}
