@@ -1,0 +1,19 @@
+/* Wrong Code
+.container {
+    display: flex;
+    justify-content: bottom; 
+}
+*/ 
+
+/* Correct Code */
+.container {
+    display: flex;
+    align-items: flex-end; /* Correct vertical bottom alignment */
+}
+
+.box {
+    width: 50px;
+    height: 50px;
+    background: orange;
+    margin: 5px;
+} 
