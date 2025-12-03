@@ -17,7 +17,7 @@
     color: white;
     border-radius: 5px;
 }
-
+ 
 /* Different justify-content values */
 .flex-start {
     justify-content: flex-start;
