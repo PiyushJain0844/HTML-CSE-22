@@ -45,7 +45,7 @@
 /* Responsive Design */
 @media (max-width: 768px) {
   .nav-links {
-    display: none; /* Hide menu on smaller screens */
+    display: none;              /* Hide menu on smaller screens */
   }
   .actions {
     font-size: 0.9rem;
