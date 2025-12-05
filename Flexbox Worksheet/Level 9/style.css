@@ -5,10 +5,11 @@
 }
 */ 
 
+
 /* Correct Code */
 .container {
     display: flex;
-    align-items: flex-end; /* Correct vertical bottom alignment */
+    align-items: flex-end;       /* Correct vertical bottom alignment */
 }
 
 .box {
