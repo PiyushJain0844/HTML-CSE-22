@@ -10,7 +10,7 @@
 
 .menu {
     display: flex;
-    gap: 20px;     /* Horizontal spacing between items */
+    gap: 20px;                 /* Horizontal spacing between items */
     list-style: none;
     margin: 0;
     padding: 0;
