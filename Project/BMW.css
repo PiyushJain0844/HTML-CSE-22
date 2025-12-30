@@ -73,7 +73,7 @@ nav a:hover{
     background:#0f4da8;
 }
 
-/* ===== INTRO ===== */
+/* INTRO */
 .intro{
     padding:60px 15%;
     text-align:center;
@@ -84,7 +84,7 @@ nav a:hover{
     margin-bottom:15px;
 }
 
-/* ===== MODELS ===== */
+/* MODELS */
 .models{
     padding:60px;
     text-align:center;
@@ -125,7 +125,7 @@ nav a:hover{
     margin-bottom:15px;
 }
 
-/* ===== CTA ===== */
+/* CTA */
 .cta{
     background:#000;
     color:#fff;
@@ -142,7 +142,7 @@ nav a:hover{
     cursor:pointer;
 }
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 footer{
     background:#111;
     color:#aaa;
@@ -151,7 +151,7 @@ footer{
     font-size:14px;
 }
 
-/* ===== RESPONSIVE ===== */
+/* RESPONSIVE */
 @media(max-width:768px){
     header{
         flex-direction:column;
@@ -166,4 +166,4 @@ footer{
     .hero h1{
         font-size:32px;
     }
-}
+} 
